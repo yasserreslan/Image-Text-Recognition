@@ -27,6 +27,11 @@ Common errors occur within the Pytube library. In case of errors please execute 
 python -m pip install git+https://github.com/Zeecka/pytube@fix_1060
 python -m pip install --upgrade pytube
 ```
+Tesseract might cause some trouble also, if you are using windows and met with an error please execute the following command into your command shell
+
+```bash
+python main.py --win
+```
 
 
 ## References 
