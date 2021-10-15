@@ -5,7 +5,21 @@ from pytube import YouTube
 
 from enhance import enhance
 
+import sys
 import os
+
+
+#error handling for windows
+args = sys.argv
+args = args[1:]
+
+if len(args) == 0:
+  pass
+else:
+  for a in args:
+    if a == "--win":
+      pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 
 
