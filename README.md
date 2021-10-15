@@ -10,6 +10,7 @@ This tool was created with help of Google's optical character recognition engine
 After cloning the repository enter the following commands into the command shell of your virtual environment.
 
 ```bash
+pip install tesseract
 pip install -r requirements.txt
 python main.py
 ```
