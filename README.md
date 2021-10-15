@@ -19,6 +19,15 @@ Upon running the previous commands into your command shell, Pytube will be respo
 Once the download is complete you will be met with the full video required for this task and a window showing the preprocessed image opened using OpenCv.The results will appear directly on the command line while the video runs on a frame by frame basis minding. Text may be repeated since the text in the desired frame is the same for longer periods of time and the test is done frame by frame.
 
 
+## Errors
+Common errors occur within the Pytube library. In case of errors please execute the following commands on command shell
+
+```bash
+python -m pip install git+https://github.com/Zeecka/pytube@fix_1060
+python -m pip install --upgrade pytube
+```
+
+
 ## References 
 This code is written in accordance to the PEP8 Style Guide for Python Code
 
